@@ -1,0 +1,39 @@
+{
+	"name": "SourceDataset_wyb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureFileStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureFileStorageLocation",
+				"fileName": "MostActiveStocks060720.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Symbol",
+				"type": "String"
+			},
+			{
+				"name": "Expiry Date",
+				"type": "String"
+			},
+			{
+				"name": "LTP�",
+				"type": "String"
+			},
+			{
+				"name": "% Change",
+				"type": "String"
+			}
+		]
+	}
+}
