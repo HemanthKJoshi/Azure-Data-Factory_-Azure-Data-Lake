@@ -1,0 +1,7 @@
+{
+	"name": "onpremisestoADLS",
+	"properties": {
+		"description": "transfer files from onpremises to adls",
+		"annotations": []
+	}
+}
