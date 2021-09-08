@@ -5,9 +5,9 @@
 		"annotations": [],
 		"type": "FileServer",
 		"typeProperties": {
-			"host": "C:\\ftp folder",
+			"host": "C:\\ftp folder\\",
 			"userId": "hemanthkumar.joshi@hcl.com",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NDM4NWQ3ZC0xZjY4LTRhMjktYTM3Yi04ZmE5ZDYzMWQ4ZTEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2ODAzZDQwZS0xODZkLTRjOTQtYjBhNi1kMGQ1NzhjOWRhYzUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
