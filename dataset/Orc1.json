@@ -1,0 +1,19 @@
+{
+	"name": "Orc1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls2LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Orc",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "healthanalytics"
+			},
+			"enablePhysicalSchema": true
+		},
+		"schema": []
+	}
+}
