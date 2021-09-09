@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "hjdf1"
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"FileServer2_password": {
+			"value": ""
+		},
+		"adls2LS_accountKey": {
+			"value": ""
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "C:\\ftp folder"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "HCL/Hemanthkumar.joshi"
+		},
+		"FileServer2_properties_typeProperties_host": {
+			"value": "C:\\ftp folder\\"
+		},
+		"FileServer2_properties_typeProperties_userId": {
+			"value": "hemanthkumar.joshi@hcl.com"
+		},
+		"adls2LS_properties_typeProperties_url": {
+			"value": "https://jhstgac.dfs.core.windows.net"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
