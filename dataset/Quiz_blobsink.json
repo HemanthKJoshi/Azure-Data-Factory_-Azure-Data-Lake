@@ -1,0 +1,450 @@
+{
+	"name": "Quiz_blobsink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls2LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "healthanalytics"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"put": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"meta": {
+								"type": "object",
+								"properties": {
+									"view": {
+										"type": "object",
+										"properties": {
+											"id": {
+												"type": "string"
+											},
+											"name": {
+												"type": "string"
+											},
+											"assetType": {
+												"type": "string"
+											},
+											"attribution": {
+												"type": "string"
+											},
+											"averageRating": {
+												"type": "integer"
+											},
+											"category": {
+												"type": "string"
+											},
+											"createdAt": {
+												"type": "integer"
+											},
+											"description": {
+												"type": "string"
+											},
+											"displayType": {
+												"type": "string"
+											},
+											"downloadCount": {
+												"type": "integer"
+											},
+											"hideFromCatalog": {
+												"type": "boolean"
+											},
+											"hideFromDataJson": {
+												"type": "boolean"
+											},
+											"indexUpdatedAt": {
+												"type": "integer"
+											},
+											"licenseId": {
+												"type": "string"
+											},
+											"newBackend": {
+												"type": "boolean"
+											},
+											"numberOfComments": {
+												"type": "integer"
+											},
+											"oid": {
+												"type": "integer"
+											},
+											"provenance": {
+												"type": "string"
+											},
+											"publicationAppendEnabled": {
+												"type": "boolean"
+											},
+											"publicationDate": {
+												"type": "integer"
+											},
+											"publicationGroup": {
+												"type": "integer"
+											},
+											"publicationStage": {
+												"type": "string"
+											},
+											"rowClass": {
+												"type": "string"
+											},
+											"rowsUpdatedAt": {
+												"type": "integer"
+											},
+											"rowsUpdatedBy": {
+												"type": "string"
+											},
+											"tableId": {
+												"type": "integer"
+											},
+											"totalTimesRated": {
+												"type": "integer"
+											},
+											"viewCount": {
+												"type": "integer"
+											},
+											"viewLastModified": {
+												"type": "integer"
+											},
+											"viewType": {
+												"type": "string"
+											},
+											"approvals": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"reviewedAt": {
+															"type": "integer"
+														},
+														"reviewedAutomatically": {
+															"type": "boolean"
+														},
+														"state": {
+															"type": "string"
+														},
+														"submissionId": {
+															"type": "integer"
+														},
+														"submissionObject": {
+															"type": "string"
+														},
+														"submissionOutcome": {
+															"type": "string"
+														},
+														"submittedAt": {
+															"type": "integer"
+														},
+														"workflowId": {
+															"type": "integer"
+														},
+														"submissionDetails": {
+															"type": "object",
+															"properties": {
+																"permissionType": {
+																	"type": "string"
+																}
+															}
+														},
+														"submissionOutcomeApplication": {
+															"type": "object",
+															"properties": {
+																"failureCount": {
+																	"type": "integer"
+																},
+																"status": {
+																	"type": "string"
+																}
+															}
+														},
+														"submitter": {
+															"type": "object",
+															"properties": {
+																"id": {
+																	"type": "string"
+																},
+																"displayName": {
+																	"type": "string"
+																}
+															}
+														}
+													}
+												}
+											},
+											"columns": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"id": {
+															"type": "integer"
+														},
+														"name": {
+															"type": "string"
+														},
+														"dataTypeName": {
+															"type": "string"
+														},
+														"fieldName": {
+															"type": "string"
+														},
+														"position": {
+															"type": "integer"
+														},
+														"renderTypeName": {
+															"type": "string"
+														},
+														"format": {
+															"type": "object"
+														},
+														"flags": {
+															"type": "array",
+															"items": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											},
+											"grants": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"inherited": {
+															"type": "boolean"
+														},
+														"type": {
+															"type": "string"
+														},
+														"flags": {
+															"type": "array",
+															"items": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											},
+											"license": {
+												"type": "object",
+												"properties": {
+													"name": {
+														"type": "string"
+													}
+												}
+											},
+											"metadata": {
+												"type": "object",
+												"properties": {
+													"rdfSubject": {
+														"type": "string"
+													},
+													"rdfClass": {
+														"type": "string"
+													},
+													"jsonQuery": {
+														"type": "object",
+														"properties": {
+															"order": {
+																"type": "array",
+																"items": {
+																	"type": "object",
+																	"properties": {
+																		"columnFieldName": {
+																			"type": "string"
+																		},
+																		"ascending": {
+																			"type": "boolean"
+																		}
+																	}
+																}
+															}
+														}
+													},
+													"custom_fields": {
+														"type": "object",
+														"properties": {
+															"Common Core": {
+																"type": "object",
+																"properties": {
+																	"Contact Email": {
+																		"type": "string"
+																	},
+																	"Contact Name": {
+																		"type": "string"
+																	},
+																	"Program Code": {
+																		"type": "string"
+																	},
+																	"Publisher": {
+																		"type": "string"
+																	},
+																	"Bureau Code": {
+																		"type": "string"
+																	}
+																}
+															}
+														}
+													},
+													"rowLabel": {
+														"type": "string"
+													},
+													"availableDisplayTypes": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													},
+													"renderTypeConfig": {
+														"type": "object",
+														"properties": {
+															"visible": {
+																"type": "object",
+																"properties": {
+																	"table": {
+																		"type": "boolean"
+																	}
+																}
+															}
+														}
+													}
+												}
+											},
+											"owner": {
+												"type": "object",
+												"properties": {
+													"id": {
+														"type": "string"
+													},
+													"displayName": {
+														"type": "string"
+													},
+													"profileImageUrlLarge": {
+														"type": "string"
+													},
+													"profileImageUrlMedium": {
+														"type": "string"
+													},
+													"profileImageUrlSmall": {
+														"type": "string"
+													},
+													"screenName": {
+														"type": "string"
+													},
+													"type": {
+														"type": "string"
+													},
+													"flags": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													}
+												}
+											},
+											"query": {
+												"type": "object",
+												"properties": {
+													"orderBys": {
+														"type": "array",
+														"items": {
+															"type": "object",
+															"properties": {
+																"ascending": {
+																	"type": "boolean"
+																},
+																"expression": {
+																	"type": "object",
+																	"properties": {
+																		"columnId": {
+																			"type": "integer"
+																		},
+																		"type": {
+																			"type": "string"
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											},
+											"rights": {
+												"type": "array",
+												"items": {
+													"type": "string"
+												}
+											},
+											"tableAuthor": {
+												"type": "object",
+												"properties": {
+													"id": {
+														"type": "string"
+													},
+													"displayName": {
+														"type": "string"
+													},
+													"profileImageUrlLarge": {
+														"type": "string"
+													},
+													"profileImageUrlMedium": {
+														"type": "string"
+													},
+													"profileImageUrlSmall": {
+														"type": "string"
+													},
+													"screenName": {
+														"type": "string"
+													},
+													"type": {
+														"type": "string"
+													},
+													"flags": {
+														"type": "array",
+														"items": {
+															"type": "string"
+														}
+													}
+												}
+											},
+											"tags": {
+												"type": "array",
+												"items": {
+													"type": "string"
+												}
+											},
+											"flags": {
+												"type": "array",
+												"items": {
+													"type": "string"
+												}
+											}
+										}
+									}
+								}
+							},
+							"data": {
+								"type": "array",
+								"items": {
+									"type": "array",
+									"items": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
