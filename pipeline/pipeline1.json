@@ -19,7 +19,7 @@
 						"type": "JsonSource",
 						"storeSettings": {
 							"type": "FileServerReadSettings",
-							"recursive": true,
+							"fileListPath": "filepath.txt",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -45,7 +45,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Quiz_blobsink",
+						"referenceName": "Json6",
 						"type": "DatasetReference"
 					}
 				]
