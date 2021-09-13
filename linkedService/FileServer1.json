@@ -6,8 +6,8 @@
 		"type": "FileServer",
 		"typeProperties": {
 			"host": "C:\\ftp folder",
-			"userId": "HCL/Hemanthkumar.joshi",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlNmEyZWU0YS05ZjFlLTQ0MzQtYTE5YS1kYzZiY2E0OGZjMTEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"userId": "Hemanthkumar.joshi@hcl.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhNTdkNzUyMC1hNWYxLTRkMTItODk2NC03YzFhY2NhNjIwMjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
